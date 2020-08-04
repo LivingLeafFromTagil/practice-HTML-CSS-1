@@ -1,0 +1,241 @@
+* {
+  background-color: #f8f8f8;
+}
+
+/*хедер*/
+.header {
+  background: no-repeat url("../img/header-background.jpg");
+  background-size: cover;
+}
+
+/*основной блок*/
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/*загаловок магазина*/
+.shop-name {
+  position: relative;
+  left: -400px;
+}
+
+/*футер*/
+.footer, .footer p {
+  background-color: rgb(240, 200, 114);
+}
+
+.footer {
+  margin-top: 20px;
+  height: 100px;
+  text-align: right;
+}
+
+.footer p {
+  display: inline;
+  position: relative;
+  right: 100px;
+  top: 30px;
+}
+
+/*меню*/
+img[alt="logo"] {
+  float: left;
+  margin-left: 50px;
+  height: 131px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.header {
+  height: 130px;
+  border-bottom: 1px solid black;
+}
+
+.menu {
+  float: right;
+  padding: 0;
+}
+
+.menu li {
+  border: 2px solid black;
+  padding: 5px 20px;
+  float: left;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.menu li:not(:first-child) {
+  margin-left: -4px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.menu li a:hover {
+  color: darkgoldenrod;
+}
+
+.menu li a:active {
+  color: #4bdf4b;
+}
+
+/*каталог*/
+.catalog-item {
+  display: inline-block;
+  margin-right: 20px
+}
+
+.item-ref {
+  font-style: italic;
+  text-decoration: none;
+  color: blue;
+}
+
+/*товар каталога*/
+.header-short, .header-data, .header-full {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+.item-img {
+  outline: black solid 2px;
+}
+
+.item-img:hover {
+  outline-width: 0px;
+}
+
+.curr-item {
+  float: left;
+  margin-right: 10px;
+}
+
+.item-short::first-letter, .item-full::first-letter {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 48px;
+  color: darkorange;
+}
+
+.item-short {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.item-full {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.table-data{
+  border-collapse: collapse;
+  border: 3px solid rgb(120, 118, 118);
+}
+
+.item-data {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.data-type td {
+  font-weight: bold;
+  line-height: 45px;
+  border: 3px solid rgb(120, 118, 118);
+}
+
+.item-data td {
+  vertical-align: top;
+  border: 1px solid black;
+  padding-right: 5px;
+}
+
+.catalog-back, .item-purchase {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+
+.catalog-back:hover, .item-purchase:hover, .item-ref:hover {
+  color: darkgoldenrod;
+}
+
+.catalog-back:active, .item-purchase:active, .item-ref:active {
+  color: #4bdf4b;
+}
+
+/*контакты*/
+.contact-form {
+  width: 400px;
+}
+
+.contact-form input{
+  border: 1px solid black;
+  vertical-align: top;
+  font-weight: bold;
+  text-align: left;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.contact-form input[id="theme-name"] {
+  width: 300px;
+  height: 30px;
+}
+
+.contact-form input[id="theme-text"] {
+  width: 300px;
+  height: 80px;
+}
+
+.contact-form input[id="hobby"] {
+  width: 200px;
+  height: 30px;
+}
+
+.contact-form input:focus:not([type="submit"]) {
+  background-color: #ffa;
+  color: darkorange;
+}
+
+.contact-form input[type="submit"]:active {
+  background-color: #999;
+}
+
+.contact-form input:not([type="email"]) {
+  text-transform: capitalize;
+}
+
+.contacts {
+  font-style: italic;
+  padding: 0;
+}
+
+.contacts iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: 374px;
+}
+
+#address {
+  list-style: url("../img/globe.png");
+}
+
+#phone {
+  list-style: url("../img/phone.png");
+}
+
+#mail {
+  list-style: url("../img/soap.png");
+}
